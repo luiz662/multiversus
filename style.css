@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lexend", sans-serif;
+
+}
+
+body .img {
+  background-image: url(./img/img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+ .home {
+   
+    height:  59px;
+    padding: 16px 32px ;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    & h1 {
+       margin-top: 100px;
+font-family: Lexend;
+font-size: 48px;
+font-weight: 400;
+line-height: 71.04px;
+text-align: left;
+color: #fff;
+
+    
+    }
+
+    & p{
+        color: #fff;
+        margin-top: 15px;
+    
+    }
+    & button{
+        width: Hug (162px)px;
+height: Hug (59px)px;
+padding: 16px 32px ;
+gap: 10px;
+border-radius: 8px ;
+opacity: 0px;
+ background: #3B44F6;
+color: #fff;
+margin-top: 50px;
+
+    }
+    
+}
+
+header {
+/*     display: flex;
+    justify-content: space-between;
+    padding: 60px 80px; */
+
+    & .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        align-items: center;
+        & ul{
+            display: flex;
+            justify-content: space-between;
+            
+            gap: 60px;
+            & a{
+                color: #fff;
+            }
+        }
+      
+       & button{
+        width: Fixed (90px)px;
+height: Hug (38px)px;
+padding: 8px 16px ;
+gap: 10px;
+border-radius: 8px;
+background: #3B44F6;
+
+       }
+        & button:last-child{
+font-size: 15px;
+font-weight: 400;
+line-height: 21.6px;
+text-align: center;
+background:transparent;
+color: #fff;
+border-radius: #020202 solid  4px;
+
+
+        }
+
+    }
+}
